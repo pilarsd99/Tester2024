@@ -4,3 +4,12 @@
   font-weight: 300px;
   font-style: normal;
 }
+body{
+  background :#401e52;
+}
+.contenedor-producto {
+  background: #ecece0;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 1rem;
+}
