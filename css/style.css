@@ -13,3 +13,6 @@ body{
   grid-template-columns: repeat(3,1fr);
   gap: 1rem;
 }
+.producto-image{
+  max-width: 100%;
+}
