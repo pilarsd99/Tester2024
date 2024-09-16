@@ -11,9 +11,9 @@ let michi = {
 };
 //let x='';
 function palabras(x){
-    let y='';
-    let segpar= x.slice(1,x.lenght)
-    y = x[0].toUpperCase()+segpar.toLowerCase();
+    let y = '';
+    let segpar = x.slice(1,x.lenght);
+    y = x[0].toUpperCase() + segpar.toLowerCase();
     return y;
 }
 
