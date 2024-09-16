@@ -1,8 +1,8 @@
-let nombre ="Hola";
-let apellido = 'hola';
-let quienSos =`hola`;
+let nombre ="Pilar";
+let apellido = 'Sahonero';
+let quienSos =`Bar \"la tortuguita\"`;
 
-
+quienSos = nombre+' '+apellido;
 alert(nombre);
 alert(apellido);
 alert(quienSos);

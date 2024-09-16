@@ -28,6 +28,7 @@ flex-shrink: 0;
   width: 500px;
   border-radius: 10px;
 }
-.producto-image{
+.producto-imagen{
   max-width: 100%;
+  background: #189f3c;
 }
