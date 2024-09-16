@@ -1,4 +1,4 @@
-let nombre ="Pilar";
+let nombre ="Hola,Pilar";
 let apellido = 'SAHONERO';
 let quienSos ="Bar \"la tortuguita\"";
 
@@ -10,4 +10,5 @@ alert(quienSos);
 alert(nombre.length);
 alert(nombre.toUpperCase());
 alert(apellido.toLowerCase());
-alert(nombre.replace('Pilar', 'Pablo'))
+alert(nombre.replace('Pilar', 'Pablo'));
+alert(nombre.split(',')[0]);
