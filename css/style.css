@@ -5,13 +5,28 @@
   font-style: normal;
 }
 body{
-  background :#401e52;
+  background: #401e52;
+  display:flex;
 }
-.contenedor-producto {
-  background: #ecece0;
+#ctitulo{
+flex-shrink: 0;
+}
+
+#menu{
+  padding:20px ;
+  width: 200px;
+  height: 800px;
+  background: skyblue;
+  
+}
+.contenedor-producto{
+  background: #ececec;
   display: grid;
   grid-template-columns: repeat(3,1fr);
   gap: 1rem;
+  padding: 20px;
+  width: 500px;
+  border-radius: 10px;
 }
 .producto-image{
   max-width: 100%;
