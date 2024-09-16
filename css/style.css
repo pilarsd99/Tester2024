@@ -31,4 +31,28 @@ flex-shrink: 0;
 .producto-imagen{
   max-width: 100%;
   background: #189f3c;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  border-radius: 10px;
+}
+.boton_precio{
+  background: #401e52;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100%;
+
+
+  
+}
+.Boton{
+  background: #ececec;
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px;
+  margin: 1px;
+}
+p{
+  margin: 0%;
+  padding: 1px;
 }

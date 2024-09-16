@@ -19,7 +19,7 @@ function palabras(x){
 
 //quienSos = nombre+' '+apellido;
 quienSos = `${nombre} ${apellido}`;
-//alert(nombre);
+/*alert(nombre);
 //alert(apellido);
 //alert(quienSos);
 //alert(nombre.length);
@@ -32,4 +32,4 @@ quienSos = `${nombre} ${apellido}`;
 //alert(michi.comida.precio);
 alert(palabras('montevideo'));
 alert(palabras('Y'))
-alert(palabras('paLabra'))
+alert(palabras('paLabra'))*/
