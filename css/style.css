@@ -13,7 +13,6 @@ body{
 flex-shrink: 0;
 color: #ececec;
 }
-
 #menu{
   padding:20px ;
   width: 200px;
@@ -45,6 +44,7 @@ color: #ececec;
   padding: 0px;  
   width: 25px;
 }
+
 .contenedor{
   background: #ececec;
   display: flex;
@@ -56,6 +56,7 @@ color: #ececec;
   justify-items: center;
   align-content: center;
 }
+
 #titulo-contenedor{
   font-family : "Rubik", sans-serif;
   font-optical-sizing : auto;
@@ -66,7 +67,6 @@ color: #ececec;
 }
 .contenedor-producto{
   display : flex;
-  /*grid-template-columns: repeat(3,1fr);*/
   flex-wrap: wrap;
   gap : 40px;
   width: 95%;
@@ -106,7 +106,32 @@ p {
   .ocultar-div{
     display: none;
   }
+  .contenedor{
+    background: #ececec;
+    display: flex;
+    flex-direction:column;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    height: 1024px;
+    justify-items: center;
+    align-content: center;
+  }
+  .hamburguesa{
+    color:#401e52;
+    visibility: visible;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+  }
   
+}
+@media screen and (min-width:601px) {
+  .hamburguesa{
+  display: none ;
+  }
 }
 @media(hover:hover){
   .Boton:hover {
