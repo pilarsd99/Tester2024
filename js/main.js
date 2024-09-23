@@ -29,7 +29,7 @@ quienSos = `${nombre} ${apellido}`;
 //alert(nombre.split(',')[0]);
 //alert(`${michi.nombre} ${michi.edad}`);
 //alert(michi.nombre.length);
-//alert(michi.comida.precio);
+//alert(michi.comida.precio)*/
 alert(palabras('montevideo'));
-alert(palabras('Y'))
-alert(palabras('paLabra'))*/
+alert(palabras('Y'));
+alert(palabras('paLabra'));
